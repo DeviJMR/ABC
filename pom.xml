@@ -9,48 +9,10 @@
 
   <name>devops</name>
   <url>http://maven.apache.org</url>
-  
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-  
-<build>
-    <plugins>
-      <plugin>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <configuration>
-          <source>1.8</source>
-          <target>1.8</target>
-        </configuration>
-      </plugin>
-      
-            <plugin>
-        <artifactId>maven-release-plugin</artifactId>
-        <configuration>
-          <autoVersionSubmodules>true</autoVersionSubmodules>
-        </configuration>
-      </plugin>
-      
-              <plugin>
-          <artifactId>maven-compiler-plugin</artifactId>
-          <version>2.3.2</version>
-        </plugin>
-
-        <plugin>
-          <artifactId>maven-surefire-report-plugin</artifactId>
-          <version>2.11</version>
-        </plugin>
-
-        <plugin>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>2.11</version>
-        </plugin>
-        
-      
-    </plugins>
-</build>
-
 
   <dependencies>
    <!-- https://mvnrepository.com/artifact/junit/junit -->
@@ -66,10 +28,4 @@
     </dependency>
 
   </dependencies>
-  
-  <prerequisites>
-    <maven>3.0.3</maven>
-  </prerequisites>
-
-  
 </project>
